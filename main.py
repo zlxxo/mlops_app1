@@ -1,7 +1,3 @@
-import os
-import logging
-from pathlib import Path
+from cnnClassifier import logger
 
-logging.basicConfig(level=logging.INFO, format='[%(acstime)s]: %(message)s')
-
-project_name = 'cls'
+logger.info("Welcome to the app")
